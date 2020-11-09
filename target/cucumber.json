@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 699510700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "StepDef.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7171530000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDef.BeforeRun()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be able to set Background",
+        "description": "",
+        "id": "validate-background-color-functionality;user-should-be-able-to-set-background",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201793100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button",
+            "match": {
+              "location": "StepDef.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "StepDef.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Scenario"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Background color Functionality",
+    "description": "",
+    "id": "validate-background-color-functionality",
+    "keyword": "Feature",
+    "uri": "feature/Background.feature"
+  }
+]
